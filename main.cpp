@@ -1,21 +1,24 @@
- #include <iostream>
+#include <iostream>
 using namespace std;
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 int main() {
     double value1=1.133e3, value2=411e-4; //problem 1;
+    cout<<"Problem one starts from here"<<endl;
     cout<<"Value 1"<<value1<<endl;
     cout<<"Value 2"<<value2<<endl;
     int students,last ;
+    cout<<"Problem 2 start from here"<<endl;
     cout<<"Enter number of students";
     cin>>students;
     cout<<"People in first group :"<<students/11<<endl;
     last=students%11;
     cout<<"In the last group :"<<last<<endl;
+    cout<<"Problem 3 start from here"<<endl;
     double area,s;
     cout<<"Enter side of hegaxon";
     cin>>s;
     area=(3*1.73*s*s)/2;
     cout<<"Area is "<<area<<endl;
+    cout<<"Problem 4 start from here"<<endl;
     int integrar;
     cout<<"Enter number of integrar";
     cin>>integrar;
@@ -26,6 +29,7 @@ int main() {
     cout<<--integrar<<endl;
     int num=integrar%9;
     cout<<num<<endl;
+    cout<<"Problem 5 start from here"<<endl;
     int    char1;
     char letter='A';
     cout<<" enter number ";
@@ -33,13 +37,14 @@ int main() {
     char b=letter+char1;
 
     cout<<"The letter upcoming is "<<b<<endl;
-
-    int x=17,y=1;
+    cout<<"Problem 6 start from here"<<endl;
+    double x=17,y=1;
     double    z=(x+x+y)/(2*3);
     cout<<" THe answer is "<<z<<endl;
     int num3,num4;
     bool  zx=true;
     bool xz=false;
+    cout<<"Problem 7 start from here"<<endl;
     cout<<"Enter number 1 ";
     cin>>num3;
     cout<<"Enter num2";
@@ -49,6 +54,7 @@ int main() {
         cout<<" It is true"<<zx<<endl;
     else
         cout<<"It is false "<<xz<<endl;
+    cout<<"Problem 8 start from here"<<endl;
     int f1,f2;
     bool f3=true;
     bool f4=false;
@@ -60,7 +66,7 @@ int main() {
         cout<<f3<<endl;
     else
         cout<<f4<<endl;
-
+    cout<<"Problem 9 start from here"<<endl;
     int  a1,b2,c3 ;
     cout<<"Enter a, b ,c ";
     cin>>a1>>b2>>c3;
@@ -68,6 +74,7 @@ int main() {
         cout<<1;
     else
         cout<<0;
+    cout<<"Problem 9 start from here"<<endl;
     int g,h,j,k,l;
     bool bn=true,nb=false;
     cout<<"Please enter 5 numbers";
@@ -76,6 +83,7 @@ int main() {
         cout<<bn;
     else
         cout<<nb;
+    cout<<"Problem 10 start from here"<<endl;
     int nt1,nt2;
     bool mn=true,nm=false;
     cout<<"Enter two integars";
@@ -91,7 +99,9 @@ int main() {
      cout<<mn<<"in case 4 "<<endl;
     else
         cout<<nm<<"in case 4 "<<endl;
+
     double sardor,mikel,f=30.48;
+    cout<<"Problem 11 start from here"<<endl;
     cout<<"Enter height of sardor";
     cin>>sardor;
 
@@ -104,4 +114,4 @@ int main() {
         cout<<"Sardor taller "<<0<<endl;
 
     return 0;
-}    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
+}  'Help | Learn IDE Features' from the main menu.
