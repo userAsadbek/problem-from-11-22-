@@ -114,4 +114,4 @@ int main() {
         cout<<"Sardor taller "<<0<<endl;
 
     return 0;
-}  'Help | Learn IDE Features' from the main menu.
+} 
