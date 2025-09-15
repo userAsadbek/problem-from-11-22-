@@ -49,7 +49,7 @@ else if (x2>x3 && x2>x1)
     cout<<x2<<" is largest ";
 else if (x3>x2 && x3>x1)
     cout<<x3<<"is largest ";
-    cout<<endl<<endl;
+    cout<<endl<<endl; //problem 4 
         int year;
 
          cout<<" enter year ";
@@ -88,7 +88,12 @@ else if (x3>x2 && x3>x1)
         else
             cout<<" zero";
          // problem 7
-    cout<<endl<<endl;
+    cout<<endl<<endl; 
+  int value;
+cout<<"Enter value and i will tell you absolute"<<endl;
+cin>>value;
+int absvalue=(value<0)?-value:value;
+cout<<absvalue<<" is abs value"; //problem 8
 
        int marks1;
 
