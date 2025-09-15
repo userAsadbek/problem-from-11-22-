@@ -1,0 +1,137 @@
+#include <iostream>
+using namespace std;
+int main() {
+       cout<< "Enter a number"<< endl;
+         int num;
+         cin >> num;
+         if (num > 0)
+             cout << "Positive number" << endl;
+         else if (num < 0)
+         cout << "Negative number" << endl;
+         else
+            cout << "Zero" << endl;
+         // Problem 1
+    cout<<endl<<endl;
+
+
+         int num1 ;
+         cout<<"enter a number"<<endl;
+         cin>>num1;
+
+         if (num1%2 ==0 )
+     cout<<" is even";
+     else
+     cout<" is odd";
+    cout<<endl<<endl;
+    // Problem 2
+
+     int numz , numzz;
+
+         cout<<"Enter first number: ";
+         cin>>numz;
+        cout<<"Enter second number: ";
+         cin>>numzz;
+
+        if (numz > numzz) {
+             cout<< " Largest number is "<<numzz<<endl;
+        }else {
+                cout<< " Largest number is "<<numzz<<endl;
+            }
+     // Problem 3
+    cout<<endl<<endl;
+
+   int x1,x2,x3;
+cout<<"Enter 3 integars";
+cin>>x1>>x2>>x3;
+if (x1>x3 && x1>x2)
+    cout<<x1<<" is largest";
+else if (x2>x3 && x2>x1)
+    cout<<x2<<" is largest ";
+else if (x3>x2 && x3>x1)
+    cout<<x3<<"is largest ";
+    cout<<endl<<endl;
+        int year;
+
+         cout<<" enter year ";
+         cin>>year;
+
+         if (  year % 4 == 0 && year % 100 != 0) {
+             cout<<year<<"Leap year"<<endl;
+        }else {
+           cout<<year<<"Not a Leap year"<<endl;
+         }
+     // problem 5
+    cout<<endl<<endl;
+
+
+   int marks;
+         cout<< "Please enter your marks: ";
+         cin>> marks;
+
+         if (marks >= 50) {
+             cout<< "Passed!.";
+        } else {
+             cout<< "Failed!. succesfully";
+         }
+    cout<<endl<<endl;
+     // problem 6
+
+     int num5;
+     cout<< "Enter a number: ";
+     cin>> num5;
+
+    if (num5 > 0) {
+        cout<<" positive ";
+    }
+        else if (num5<0)
+            cout<<"negative ";
+        else
+            cout<<" zero";
+         // problem 7
+    cout<<endl<<endl;
+
+       int marks1;
+
+        cout<< "Please enter your marks (0-100): ";
+        cin>> marks1;
+
+        if (marks1 >= 90 && marks1 <= 100) {
+            cout<< " Grade: A "<<endl;
+       } else if (marks1 >= 80 && marks1 <= 89) {
+          cout<< " Grade: B  "<<endl;
+       } else if (marks1 >= 70 && marks1 <= 79) {
+            cout<<" Grade: C "<<endl;
+       } else if (marks1 >= 60 && marks1 <= 69) {
+           cout<<" Grade: D "<<endl;
+       } else if (marks1>= 0 && marks1<= 60) {
+           cout<<" Grade: E " <<endl;
+       } else {
+           cout<<" Invalid Marks " <<endl;
+      }    cout<<endl<<endl;
+    // problem 12
+
+
+
+
+   int num10;
+    cout<< "Enter a number: ";
+    cin>> num10;
+
+   if (num % 3 == 0 && num % 5 == 0) {
+         cout<< "Divisible by both"<<endl;
+        cout<< "Not divisible by both"<<endl;
+      }
+    cout<<endl<<endl;
+int num7 , num8;
+cout<<"Enter first number: ";
+cin>>num7;
+
+cout<<"Enter second number: ";
+cin>>num8;
+
+int remainder=num7%num8;
+    cout<<"Remainder is " << remainder <<endl;
+    cout<<endl<<endl;
+// problem 20
+     return 0;
+   }
